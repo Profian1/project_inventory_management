@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide Alpine.js elements until they are initialised (prevents flash of content). */
+[x-cloak] {
+    display: none !important;
+}
